@@ -10,7 +10,7 @@ spring:
       server:
         git:
           uri: https://github.com/leanmTree/spring-cloud-config
-#          username: 535745426@qq.com
-#          password: wht950808
+#          username:
+#          password:
           default-label: main
           search-paths: test/
