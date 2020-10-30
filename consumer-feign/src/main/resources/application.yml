@@ -14,7 +14,7 @@ feign:
 eureka:
   client:
     # 针对调用方来说，就不需要向注册中心注册自己了
-    register-with-eureka: false
+    #register-with-eureka: false
     service-url:
       defaultZone: http://eureka.7001.com:7001/eureka/,http://eureka.7002.com:7002/eureka/,http://eureka.7003.com:7003/eureka/
 #provider:

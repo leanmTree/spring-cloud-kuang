@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: applications #配置文件名
+      label: main     #配置文件所在分支
+      profile: dev   #使用的配置文件环境
+      uri: http://localhost:3344/   #配置中心的地址

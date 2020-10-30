@@ -19,6 +19,8 @@
         <module>provider-8003</module>
         <module>consumer-feign</module>
         <module>provider-hytrix-8004</module>
+        <module>zuul</module>
+        <module>config</module>
     </modules>
 
     <packaging>pom</packaging>

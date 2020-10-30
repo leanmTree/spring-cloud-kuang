@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="config" />
         <module name="consumer-feign" />
         <module name="provider-8001" />
         <module name="provider-8003" />
@@ -15,6 +16,7 @@
         <module name="eureka7003" />
         <module name="eureka7002" />
         <module name="eureka7001" />
+        <module name="zuul" />
         <module name="providerhytrix8004" />
         <module name="provider8003" />
         <module name="provider8002" />

@@ -1,0 +1,18 @@
+server:
+  port: 9200
+
+spring:
+  application:
+    name: zuul
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.7001.com:7001/eureka/,http://eureka.7002.com:7002/eureka/,http://eureka.7003.com:7003/eureka/
+zuul:
+  routes:
+    mydept.serviceId: provider     #原来的服务名
+    mydept.path: /myzuul/**        #要替换的路由
+  ignored-services: provider   #忽略服务，通过zuul访问时，不可以通过域名+服务名+URL的方式进行访问了，只能通过上面的代理路由访问 "*"表示所有的服务都忽略
+
