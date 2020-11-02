@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * @author hengtao.wu
+ * 用户鉴权
  * @Date 2020/10/30 10:37
  **/
 @Component
