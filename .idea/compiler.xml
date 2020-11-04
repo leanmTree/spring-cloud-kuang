@@ -16,6 +16,7 @@
         <module name="eureka7002" />
         <module name="eureka7001" />
         <module name="eureka7003" />
+        <module name="gateway-9500" />
         <module name="providerhytrix8004" />
         <module name="provider8003" />
         <module name="provider8002" />

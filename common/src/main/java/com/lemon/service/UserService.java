@@ -15,7 +15,7 @@ import java.util.List;
  * @Date 2020/10/23 15:47
  **/
 @Component
-@FeignClient(value = "provider", fallbackFactory = UserServiceFallbackFactory.class)
+@FeignClient(value = "provider", fallbackFactory = UserServiceFallbackFactory.class,fallback = UserServiceFallbackFactory.class)
 public interface UserService {
     @PostMapping(value = "/provider/user/add")
     boolean add(@RequestBody UserPO userPO);

@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e2fd5f-4d01-46fd-b967-169e12bde4bf" name="默认更改列表" comment="" />
+    <list default="true" id="82e2fd5f-4d01-46fd-b967-169e12bde4bf" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-9500/gateway-9500.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-9500/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/lemon/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/lemon/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/common/target/" />
@@ -16,6 +38,7 @@
     <ignored path="$PROJECT_DIR$/provider-hytrix-8004/target/" />
     <ignored path="$PROJECT_DIR$/zuul/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/gateway-9500/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +53,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="87" column="23" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="23" />
+            <state relative-caret-position="452">
+              <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -53,6 +120,10 @@
     <findStrings>
       <find>Bean</find>
       <find>NFLoadBalancerRuleClassName</find>
+      <find>enabled</find>
+      <find>circuitBreaker</find>
+      <find>metrics</find>
+      <find>default</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,14 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/provider/Test.java" />
-        <option value="$PROJECT_DIR$/eureka-7001/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-7001/src/main/java/com/lemon/eureka/Eureka7001Application.java" />
-        <option value="$PROJECT_DIR$/eureka-7002/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-7003/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-7002/src/main/java/com/lemon/eureka/Eureka7002Application.java" />
-        <option value="$PROJECT_DIR$/eureka-7003/src/main/java/com/lemon/eureka/Eureka7003Application.java" />
         <option value="$PROJECT_DIR$/eureka-7001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-7002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-7003/src/main/resources/application.yml" />
@@ -80,10 +143,7 @@
         <option value="$PROJECT_DIR$/provider-8002/src/main/java/com/lemon/provider/controller/UserController.java" />
         <option value="$PROJECT_DIR$/provider-8003/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8003/src/main/java/com/lemon/Provider8003Application.java" />
-        <option value="$PROJECT_DIR$/provider-8003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer80/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/config/MyRule.java" />
-        <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/config/BeanFactory.java" />
         <option value="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserFeignController.java" />
         <option value="$PROJECT_DIR$/consumer-feign/pom.xml" />
@@ -92,26 +152,37 @@
         <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/Consumer80Application.java" />
         <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/config/MyRule.java" />
         <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/config/BeanFactory.java" />
-        <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/controller/UserFeignController.java" />
         <option value="$PROJECT_DIR$/provider-hytrix-8004/pom.xml" />
         <option value="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/lemon/provider/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/provider-hytrix-8004/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java" />
         <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/ConsumerFeignApplication.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java" />
         <option value="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/Provider8004Application.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserServiceFallbackFactory.java" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/ZuulApplicatiopn.java" />
-        <option value="$PROJECT_DIR$/consumer-feign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java" />
         <option value="$PROJECT_DIR$/config/src/main/java/com/lemon/config/ConfigServer.java" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8001/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/provider-8001/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java" />
+        <option value="$PROJECT_DIR$/consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/controller/UserFeignController.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/provider-8003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/gateway-9500/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/GatewayApplication.java" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer80/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java" />
+        <option value="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/Test.java" />
+        <option value="$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java" />
+        <option value="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java" />
       </list>
     </option>
   </component>
@@ -121,6 +192,11 @@
         <option name="mavenHome" value="E:/maven" />
         <option name="userSettingsFile" value="E:\maven\conf\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -168,6 +244,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,11 +252,108 @@
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,19 +364,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/kangce/kc-crm/kc-crm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lemon.consumer.controller" />
       <recent name="com.lemon" />
       <recent name="com.lemon.consumer.config" />
-      <recent name="com.lemon.consumer.controller" />
       <recent name="com.lemon.eureka" />
       <recent name="com.lemon.provider.controller" />
     </key>
@@ -232,7 +406,20 @@
     </option>
     <option name="contentProportion" value="0.17920953" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Eureka7001Application">
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lemon.gateway.config.Test" />
+      <module name="gateway-9500" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lemon.gateway.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,41 +561,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka7001Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-7001" />
+    <configuration name="Consumer80Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="consumer80" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lemon.eureka.*" />
+          <option name="PATTERN" value="com.lemon.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.eureka.Eureka7001Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.consumer.Consumer80Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Eureka7002Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-7002" />
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-9500" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lemon.eureka.*" />
+          <option name="PATTERN" value="com.lemon.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.eureka.Eureka7002Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eureka7003Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="eureka-7003" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lemon.eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.eureka.Eureka7003Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -457,18 +631,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.Eureka7002Application" />
-      <item itemvalue="Spring Boot.Eureka7003Application" />
-      <item itemvalue="Spring Boot.ConfigServer" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.Consumer80Application" />
       <item itemvalue="Spring Boot.Provider8001Application" />
-      <item itemvalue="Spring Boot.Eureka7001Application" />
+      <item itemvalue="Spring Boot.ConfigServer" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Consumer80Application" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.Provider8001Application" />
-        <item itemvalue="Spring Boot.Eureka7001Application" />
-        <item itemvalue="Spring Boot.Eureka7003Application" />
-        <item itemvalue="Spring Boot.Eureka7002Application" />
         <item itemvalue="Spring Boot.ConfigServer" />
       </list>
     </recent_temporary>
@@ -487,17 +661,18 @@
       <workItem from="1603350666050" duration="26000" />
       <workItem from="1603350767162" duration="35717000" />
       <workItem from="1603962409809" duration="13979000" />
+      <workItem from="1604280849388" duration="34189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58878000" />
+    <option name="totallyTimeSpent" value="93067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49721915" visible="true" weight="0.2576" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49721915" visible="true" weight="0.2576" />
       <window_info id="Structure" order="1" sideWeight="0.50278085" side_tool="true" weight="0.25493333" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -506,8 +681,8 @@
       <window_info id="设计器" order="6" />
       <window_info id="Web" order="7" sideWeight="0.5019531" side_tool="true" weight="0.2496" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4304783" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850778" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4298441" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -515,14 +690,14 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850778" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5002667" side_tool="true" weight="0.38195992" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.43875277" />
       <window_info anchor="bottom" id="调试" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" weight="0.55011135" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49973333" weight="0.3674833" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -543,34 +718,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/m2/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/config/MyRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/m2/org/springframework/cloud/spring-cloud-starter-eureka/1.4.6.RELEASE/spring-cloud-starter-eureka-1.4.6.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -578,91 +725,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/lemon/provider/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/lemon/provider/service/UserService.java" />
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/lemon/Provider8003Application.java" />
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/lemon/provider/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/lemon/provider/service/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/resources/mybatis/mapper/userMapper.xml">
+    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/service/UserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/ConsumerFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/m2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/config/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="352">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/m2/io/github/openfeign/feign-hystrix/10.2.3/feign-hystrix-10.2.3.jar!/feign/hystrix/FallbackFactory.class">
+    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/controller/UserFeignController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/EnableFeignClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-openfeign-core/2.1.2.RELEASE/spring-cloud-openfeign-core-2.1.2.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-commons/2.1.2.RELEASE/spring-cloud-commons-2.1.2.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="330">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="374">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -671,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserServiceFallbackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="286">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
@@ -683,24 +776,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/Provider8004Application.java">
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/m2/cn/hutool/hutool-all/4.3.1/hutool-all-4.3.1.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/m2/cn/hutool/hutool-all/4.3.1/hutool-all-4.3.1.jar!/cn/hutool/core/date/DateUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/cn/hutool/hutool-all/4.3.1/hutool-all-4.3.1-sources.jar!/cn/hutool/core/date/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="1157" column="7" selection-start-line="1157" selection-start-column="4" selection-end-line="1157" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-7002/src/main/java/com/lemon/eureka/Eureka7002Application.java">
+    <entry file="jar://D:/m2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/HystrixCommandProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2422">
+          <caret line="61" column="74" lean-forward="true" selection-start-line="61" selection-start-column="74" selection-end-line="61" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/gateway-9500.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer80/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8001/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.1.2.RELEASE/spring-cloud-netflix-eureka-client-2.1.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="58" />
+          <folding>
+            <element signature="e#13957#13958#0" expanded="true" />
+            <element signature="e#14001#14002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE.jar!/org/springframework/cloud/gateway/config/GatewayProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-7003/src/main/java/com/lemon/eureka/Eureka7003Application.java">
+    <entry file="file://$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/Consumer80Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="242">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-7001/src/main/java/com/lemon/eureka/Eureka7001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/config/MyRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/Provider8001Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/provider/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider-8002/src/main/java/com/lemon/provider/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -711,197 +982,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8003/src/main/java/com/lemon/Provider8003Application.java">
+    <entry file="file://$PROJECT_DIR$/provider-8002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-7003/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="58" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/controller/UserFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/ConsumerFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/ZuulApplicatiopn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#419#420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/m2/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/m2/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/Provider8001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-7001/src/main/java/com/lemon/eureka/Eureka7001Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/provider/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="198">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="26" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/lemon/config/ConfigServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="672">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="506">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/config/GatewayProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="87" column="23" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="23" />
+        <state relative-caret-position="452">
+          <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/route/Route.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="227" column="50" selection-start-line="227" selection-start-column="34" selection-end-line="227" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/org/springframework/cloud/spring-cloud-gateway-core/2.1.2.RELEASE/spring-cloud-gateway-core-2.1.2.RELEASE-sources.jar!/org/springframework/cloud/gateway/discovery/DiscoveryLocatorProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#2206#2207#0" expanded="true" />
+            <element signature="e#2235#2236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -956,7 +1154,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>config</last-edited>
+          <last-edited>gateway-9500</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

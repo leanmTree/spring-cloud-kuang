@@ -14,3 +14,11 @@ spring:
 #          password:
           default-label: main
           search-paths: test/
+#  rabbitmq:
+#    host: localhost   #spring.rabbitmq.host
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh   #消息总线配置：配置MQ接受消息，当需要刷新配置时，给当前服务的MQ的改地址发送消息即可。localhost:3344/bus-refresh

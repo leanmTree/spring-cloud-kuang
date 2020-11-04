@@ -5,19 +5,20 @@ spring:
   application:
     name: config-server
 
-
-
   cloud:
     config:
       server:
         git:
           uri: https://github.com/leanmTree/spring-cloud-config
-#          username: 535745426@qq.com
-#          password: wht950808
+#          username:
+#          password:
           default-label: main
           search-paths: test/
+#  rabbitmq:
+#    host: localhost   #spring.rabbitmq.host
 
-logging:
-  level:
-    com.netflix.discovery: 'OFF'
-    org.springframework.cloud: 'DEBUG'
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: bus-refresh   #配置MQ接受消息，当需要刷新配置时，给当前服务的MQ的改地址发送消息即可。localhost:3344/bus-refresh

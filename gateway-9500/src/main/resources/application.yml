@@ -1,0 +1,35 @@
+server:
+  port: 9500
+
+spring:
+  application:
+    name: gateway-9500
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true                 #开启通过非服务名的访问
+      routes:
+        - id: provider01                   #任意的ID，不要重复
+          uri: lb://provider           #需要转发的地址
+          predicates:                        #设置断言判断
+            - Path=/pro/**              #-Path设置了路由规则，也就是访问网关的所有/provider/**请求都会被转发到上面的uri中
+#            - After=2020-11-04T16:47:52.542+08:00[Asia/Shanghai]    #改路由转发在这个时候之后才生效
+#            - Before=2020-11-04T16:47:52.542+08:00[Asia/Shanghai]   #改路由转发在这个时候之前才有效
+#            - Between=2020-11-04T16:47:52.542+08:00[Asia/Shanghai],2020-11-04T18:47:52.542+08:00[Asia/Shanghai]  #在这个时间之间才生效
+#            - Cookie=username, zzkk   #表示请求中需要有cookie,并且key是username，value是满足zzkk正则的值
+#            - RemoteAddr=192.168.1.1/24   #IP访问，表示只有该网段的IP才能进行访问
+          filters:
+            - StripPrefix=1             #将打在网关上的url的第一个路由过滤掉后，再访问真实的服务器
+        - id: consumer01                    #可以配置多个路由规则
+          uri: lb://consumer80
+          predicates:
+            - Path=/con/**
+          filters:
+            - StripPrefix=1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka.7001.com:7001/eureka/,http://eureka.7002.com:7002/eureka/,http://eureka.7003.com:7003/eureka/
+
