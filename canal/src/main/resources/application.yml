@@ -1,0 +1,13 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    name: canal-test
+
+canal:
+  client:
+    instances:
+      example:
+        host: 121.40.51.84
+        port: 11111

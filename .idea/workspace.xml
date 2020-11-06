@@ -2,27 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82e2fd5f-4d01-46fd-b967-169e12bde4bf" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-9500/gateway-9500.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-9500/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canal/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/CanalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/canal/Canalconfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/canal/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/com/lemon/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/com/lemon/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer80/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-8001/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider-8001/target/classes/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider-hytrix-8004/src/main/java/com/lemon/provider/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/lemon/zuul/filter/ZuulFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/zuul/target/" />
     <ignored path="$PROJECT_DIR$/config/target/" />
     <ignored path="$PROJECT_DIR$/gateway-9500/target/" />
+    <ignored path="$PROJECT_DIR$/canal/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,55 +40,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java">
+        <entry file="file://$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/canal/Canalconfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="694">
+              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#1386#1387#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java">
+        <entry file="jar://D:/m2/com/alibaba/otter/canal.protocol/1.0.25/canal.protocol-1.0.25-sources.jar!/com/alibaba/otter/canal/protocol/CanalEntry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-4202">
+              <caret line="3950" column="30" selection-start-line="3950" selection-start-column="30" selection-end-line="3950" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/CanalApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+            <state relative-caret-position="132">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canal/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/canal/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="24" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -132,10 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-7001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-7002/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-7003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/Provider8001Application.java" />
         <option value="$PROJECT_DIR$/provider-8002/pom.xml" />
         <option value="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController.java" />
         <option value="$PROJECT_DIR$/provider-8001/src/main/java/com/lemon/provider/controller/UserController.java" />
@@ -183,6 +168,10 @@
         <option value="$PROJECT_DIR$/gateway-9500/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/consumer80/src/main/java/com/lemon/consumer/controller/UserController1.java" />
         <option value="$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java" />
+        <option value="$PROJECT_DIR$/canal/pom.xml" />
+        <option value="$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/CanalApplication.java" />
+        <option value="$PROJECT_DIR$/canal/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/canal/Canalconfig.java" />
       </list>
     </option>
   </component>
@@ -204,25 +193,12 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka-7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="canal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka-7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="canal" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka-7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="eureka-7001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-eureka-server:1.4.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-          <item name="org.springframework.cloud:spring-cloud-starter-netflix-eureka-server:2.1.2.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
       </expand>
       <select />
@@ -255,70 +231,25 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -326,29 +257,35 @@
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-9500" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-kuang" type="462c0819:PsiDirectoryNode" />
+              <item name="canal" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -364,7 +301,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/kangce/kc-crm/kc-crm" />
+    <property name="last_opened_file_path" value="D:/project/spring-boot-starter-canal-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
@@ -406,7 +343,7 @@
     </option>
     <option name="contentProportion" value="0.17920953" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Spring Boot.CanalApplication">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lemon.gateway.config.Test" />
       <module name="gateway-9500" />
@@ -548,15 +485,15 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="ConfigServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="config" />
+    <configuration name="CanalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="canal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lemon.config.*" />
+          <option name="PATTERN" value="com.lemon.canal.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.config.ConfigServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lemon.canal.CanalApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -634,16 +571,16 @@
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.Consumer80Application" />
       <item itemvalue="Spring Boot.Provider8001Application" />
-      <item itemvalue="Spring Boot.ConfigServer" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Spring Boot.CanalApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CanalApplication" />
         <item itemvalue="Spring Boot.Consumer80Application" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.Provider8001Application" />
-        <item itemvalue="Spring Boot.ConfigServer" />
       </list>
     </recent_temporary>
   </component>
@@ -661,12 +598,12 @@
       <workItem from="1603350666050" duration="26000" />
       <workItem from="1603350767162" duration="35717000" />
       <workItem from="1603962409809" duration="13979000" />
-      <workItem from="1604280849388" duration="34189000" />
+      <workItem from="1604280849388" duration="45646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93067000" />
+    <option name="totallyTimeSpent" value="104524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -697,7 +634,7 @@
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.43875277" />
       <window_info anchor="bottom" id="调试" order="16" />
-      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49973333" weight="0.3674833" />
+      <window_info anchor="bottom" id="Run Dashboard" order="17" sideWeight="0.49973333" weight="0.45100224" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -718,74 +655,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/provider-hytrix-8004/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/ConsumerFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-feign/src/main/java/com/lemon/consumer/controller/UserFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/lemon/service/UserServiceFallbackFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/m2/cn/hutool/hutool-all/4.3.1/hutool-all-4.3.1.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://D:/m2/cn/hutool/hutool-all/4.3.1/hutool-all-4.3.1.jar!/cn/hutool/core/date/DateUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1083,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="572">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1093,12 +962,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-9500/src/main/java/com/lemon/gateway/config/GatewayFilterConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="584">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
             <element signature="e#715#716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/m2/com/alibaba/otter/canal.client/1.1.4/canal.client-1.1.4.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="89" column="20" lean-forward="true" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/m2/com/xpand/starter-canal/0.0.1-SNAPSHOT/starter-canal-0.0.1-SNAPSHOT.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canal/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/CanalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/com/alibaba/otter/canal.protocol/1.0.25/canal.protocol-1.0.25.jar!/com/alibaba/otter/canal/protocol/CanalEntry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="4615" column="30" selection-start-line="4615" selection-start-column="30" selection-end-line="4615" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/m2/com/alibaba/otter/canal.protocol/1.0.25/canal.protocol-1.0.25-sources.jar!/com/alibaba/otter/canal/protocol/CanalEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4202">
+          <caret line="3950" column="30" selection-start-line="3950" selection-start-column="30" selection-end-line="3950" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/canal/src/main/java/com/lemon/canal/canal/Canalconfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1154,12 +1089,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gateway-9500</last-edited>
+          <last-edited>Spring|canal</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

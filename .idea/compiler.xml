@@ -23,6 +23,7 @@
         <module name="provider-8003" />
         <module name="eureka-7002" />
         <module name="consumer80" />
+        <module name="canal" />
         <module name="config" />
         <module name="provider-8002" />
         <module name="eureka-7003" />
