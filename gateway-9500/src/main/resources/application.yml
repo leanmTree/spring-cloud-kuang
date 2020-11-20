@@ -14,6 +14,7 @@ spring:
           uri: lb://provider           #需要转发的地址
           predicates:                        #设置断言判断
             - Path=/pro/**              #-Path设置了路由规则，也就是访问网关的所有/provider/**请求都会被转发到上面的uri中
+#            - Host=test.com**           #所有该域名的请求都会被路由（可以是nginx过来的请求，nginx中配置了多个域名都代理到当前网关时）
 #            - After=2020-11-04T16:47:52.542+08:00[Asia/Shanghai]    #改路由转发在这个时候之后才生效
 #            - Before=2020-11-04T16:47:52.542+08:00[Asia/Shanghai]   #改路由转发在这个时候之前才有效
 #            - Between=2020-11-04T16:47:52.542+08:00[Asia/Shanghai],2020-11-04T18:47:52.542+08:00[Asia/Shanghai]  #在这个时间之间才生效
@@ -27,9 +28,17 @@ spring:
             - Path=/con/**
           filters:
             - StripPrefix=1
+            - name: RequestRateLimiter
+              args:
+                key-resolver: '#{@gatewayLimitConfig}'
+                redis-rate-limiter.replenishRate: 1   #最小令牌数(令牌桶中的数量)
+                redis-rate-limiter.burstCapacity: 3   #最大令牌书（每次生成的令牌数）
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
 
 eureka:
   client:
     service-url:
       defaultZone: http://eureka.7001.com:7001/eureka/,http://eureka.7002.com:7002/eureka/,http://eureka.7003.com:7003/eureka/
-

@@ -9,9 +9,11 @@
         <module name="consumer-feign" />
         <module name="provider-8001" />
         <module name="provider8001" />
+        <module name="consumer80" />
         <module name="provider-hytrix-8004" />
-        <module name="eureka-7001" />
-        <module name="consumerFeign" />
+        <module name="eureka-7002" />
+        <module name="canal" />
+        <module name="common" />
         <module name="zuul" />
         <module name="eureka7002" />
         <module name="eureka7001" />
@@ -21,13 +23,11 @@
         <module name="provider8003" />
         <module name="provider8002" />
         <module name="provider-8003" />
-        <module name="eureka-7002" />
-        <module name="consumer80" />
-        <module name="canal" />
-        <module name="config" />
         <module name="provider-8002" />
+        <module name="eureka-7001" />
+        <module name="config" />
         <module name="eureka-7003" />
-        <module name="common" />
+        <module name="consumerFeign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
